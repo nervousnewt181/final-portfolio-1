@@ -3,7 +3,7 @@
 // import About from "./components/About"
 // import ProjectList from "./components/ProjectList"
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom"
 import KolahFarangi from "./pages/KolahFarangi"
 import Starters from "./pages/Starters"
 import Home from "./pages/Home"
@@ -26,15 +26,14 @@ function App() {
   return (
     <div className="App">
       
-        {/* <Router>
+        <Router>
           <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="/kolahfarangi/*" element={<KolahFarangi />}/>  
               <Route path="/starters/*" element={<Starters />}/>
               <Route path="/highstakes/*" element={<HighStakes />}/>
           </Routes>
-        </Router>   */}
-        <h1>HELLO</h1>
+        </Router>  
       
     </div>
   );
