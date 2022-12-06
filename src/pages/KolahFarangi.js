@@ -29,12 +29,12 @@ export default function KolahFarangi() {
             <Navbar />
             <main className="pp--main">
                 <div className="pp--header">
-                    <h1>Kolah Farangi Redesign</h1>
+                    <h1>Kolah Farangi Redesign (test)</h1>
                     <h4>Tools Used: Balsamiq, Figma, HTML/CSS</h4>
                 </div>
 
                 <div className="pp--header-photo-container">
-                    <img className="pp--header-photo" src="/images/KF-Food.jpg"></img>
+                    <img className="pp--header-photo" src={process.env.PUBLIC_URL +  "/images/KF-Food.jpg"}></img>
                 </div>
 
                 <div className="pp--section-body"> 
