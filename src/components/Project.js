@@ -15,7 +15,7 @@ export default function Project(props) {
                 }}>See more</button>
             </div>
             <div className="project-img-container">
-                <img src={`/images/${props.img}`} alt={props.alt}></img>
+                <img src={process.env.PUBLIC_URL + "/images/" + props.img} alt={props.alt}></img>
             </div>    
         </div>
     )
