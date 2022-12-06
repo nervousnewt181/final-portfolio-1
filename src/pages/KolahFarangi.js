@@ -10,6 +10,8 @@ export default function KolahFarangi() {
     let location = useLocation();
     let navigate = useNavigate();
 
+    let i = process.env.PUBLIC_URL;
+
     React.useEffect(() => {
         animateScroll.scrollToTop({
           duration: 0,
@@ -29,12 +31,12 @@ export default function KolahFarangi() {
             <Navbar />
             <main className="pp--main">
                 <div className="pp--header">
-                    <h1>Kolah Farangi Redesign (test)</h1>
+                    <h1>Kolah Farangi Redesign</h1>
                     <h4>Tools Used: Balsamiq, Figma, HTML/CSS</h4>
                 </div>
 
                 <div className="pp--header-photo-container">
-                    <img className="pp--header-photo" src={process.env.PUBLIC_URL +  "/images/KF-Food.jpg"}></img>
+                    <img className="pp--header-photo" src={i +  "/images/KF-Food.jpg"}></img>
                 </div>
 
                 <div className="pp--section-body"> 
@@ -92,9 +94,9 @@ export default function KolahFarangi() {
                         Namely, remove the ads and make information display more streamlined and easy to navigate.
                         I designed interfaces for desktop, tablet, and cell phone dimensions.
                     </p>
-                    <img src="/images/kolahfarangi/wireframe-desktop.jpg" alt="wireframe for desktop dimensions"/>
-                    <img src="/images/kolahfarangi/wireframe-tablet.jpg" alt="wireframe for tablet dimensions"/>
-                    <img src="/images/kolahfarangi/wireframe-phone.jpg" alt="wireframe for phone dimensions"/>
+                    <img src={i + "/images/kolahfarangi/wireframe-desktop.jpg"} alt="wireframe for desktop dimensions"/>
+                    <img src={i + "/images/kolahfarangi/wireframe-tablet.jpg"} alt="wireframe for tablet dimensions"/>
+                    <img src={i + "/images/kolahfarangi/wireframe-phone.jpg"} alt="wireframe for phone dimensions"/>
                     <p>The header is now larger, and the page features a main, eye-catching visual complete
                         with a notable "Order Now" button.
 
@@ -108,7 +110,7 @@ export default function KolahFarangi() {
                     <p>To emulate the original site's fire imagery, the color palette is a simple
                         black/white with red accents of different hues.
                     </p>
-                    <img src="/images/kolahfarangi/VisualGuide.png" alt="visual design style guide for my redesign"/>
+                    <img src={i + "/images/kolahfarangi/VisualGuide.png"} alt="visual design style guide for my redesign"/>
 
                     <p>
                         High-fidelity wireframing allowed for some play of the menu display,
@@ -117,10 +119,10 @@ export default function KolahFarangi() {
                         of important information like location and phone number being readily
                         displayed at the top of the webpage.
 
-                        <img src="/images/kolahfarangi/figma-desktop-1.jpg" alt="high fidelity prototype for desktop dimensions"/>
-                        <img src="/images/kolahfarangi/figma-desktop-2.jpg" alt="high fidelity prototype for desktop dimensions, continued"/>
-                        <img src="/images/kolahfarangi/figma-tablet.jpg" alt="high fidelity prototype for tablet dimensions"/>
-                        <img src="/images/kolahfarangi/figma-phone.jpg" alt="high fidelity prototype for phone dimensions"/>
+                        <img src={i + "/images/kolahfarangi/figma-desktop-1.jpg"} alt="high fidelity prototype for desktop dimensions"/>
+                        <img src={i + "/images/kolahfarangi/figma-desktop-2.jpg"} alt="high fidelity prototype for desktop dimensions, continued"/>
+                        <img src={i + "/images/kolahfarangi/figma-tablet.jpg"} alt="high fidelity prototype for tablet dimensions"/>
+                        <img src={i + "/images/kolahfarangi/figma-phone.jpg"} alt="high fidelity prototype for phone dimensions"/>
                     </p>
                 </div>
 

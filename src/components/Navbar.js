@@ -42,11 +42,11 @@ export default function Navbar() {
             <div className="navbar-options-container">  
                 <div className='navbar-option-div'>
                     {/* <a href='#about' className='nav-link nav-link-ltr' onClick={handlePage}>About</a> */}
-                    <Link activeClass="active" smooth spy to="about" offset={-300} duration={0} onClick={handlePage}>About</Link>
+                    <Link className='nav-link nav-link-ltr' activeClass="active" smooth spy to="about" offset={-300} duration={0} onClick={handlePage}>About</Link>
                 </div>
                 <div className='navbar-option-div'>
                     {/* <a href='#projects' className='nav-link nav-link-ltr' onClick={handlePage}>Projects</a> */}
-                    <Link activeClass="active" smooth spy to="projects" offset={-80} duration={0} onClick={handlePage}>Projects</Link>
+                    <Link className='nav-link nav-link-ltr' activeClass="active" smooth spy to="projects" offset={-80} duration={0} onClick={handlePage}>Projects</Link>
                 </div>
             </div>
             
