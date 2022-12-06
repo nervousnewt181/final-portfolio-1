@@ -1,4 +1,4 @@
-import React from "react" 
+// import React from "react" 
 // import Navbar from "./components/Navbar"
 // import About from "./components/About"
 // import ProjectList from "./components/ProjectList"
@@ -26,14 +26,15 @@ function App() {
   return (
     <div className="App">
       
-        <Router>
+        {/* <Router>
           <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="/kolahfarangi/*" element={<KolahFarangi />}/>  
               <Route path="/starters/*" element={<Starters />}/>
               <Route path="/highstakes/*" element={<HighStakes />}/>
           </Routes>
-        </Router>  
+        </Router>   */}
+        <h1>HELLO</h1>
       
     </div>
   );
