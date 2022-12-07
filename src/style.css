@@ -102,7 +102,7 @@ main {
 */
 .about-container {
   margin: 0;
-  height: 730px;
+  height: 820px;
   display: flex;
   align-items: center;
   /* background-color: var(--mainBackground); */

@@ -24,12 +24,12 @@ export default function KolahFarangi() {
         })
     }, [location.pathname]);
 
-    const handlePage = () => {
-        console.log(location); 
-        if(location.pathname !== "/") {
-            navigate("/");
-        }
-    }
+    // const handlePage = () => {
+    //     console.log(location); 
+    //     if(location.pathname !== "/") {
+    //         navigate("/");
+    //     }
+    // }
 
     return (
         <div>
@@ -37,7 +37,7 @@ export default function KolahFarangi() {
             <main className="pp--main">
                 <div className="pp--header">
                     <h1>Kolah Farangi Redesign</h1>
-                    <h4>Tools Used: Balsamiq, Figma, HTML/CSS</h4>
+                    <h4><b>Tools Used: </b>Balsamiq, Figma, HTML/CSS</h4>
                 </div>
 
                 <div className="pp--header-photo-container">

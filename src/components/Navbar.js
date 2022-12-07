@@ -19,7 +19,20 @@ export default function Navbar() {
             navigate("/");
 
             if (scrollTo === "projects") {
-                window.scrollTo(0, 800);
+                console.log("to projects");
+                // window.scrollTo({
+                //     top: 0,
+                //     left: 0,
+                //     behavior: "instant",
+                // });
+                window.scrollTo(0, 830);
+            }
+            if (scrollTo === "about") {
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: "instant",
+                });
             }
         }
     }

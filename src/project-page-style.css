@@ -24,6 +24,8 @@
     padding: 5rem 9rem;
     background-color: white;
     scroll-behavior: auto;
+
+    min-height: 200vh;
 }
 
 .pp--header-photo-container {
