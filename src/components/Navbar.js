@@ -13,10 +13,14 @@ export default function Navbar() {
     let location = useLocation();
     
 
-    const handlePage = () => {
+    const handlePage = (scrollTo) => {
         console.log(location); 
         if(location.pathname !== "/") {
             navigate("/");
+
+            if (scrollTo === "projects") {
+                window.scrollTo(0, 800);
+            }
         }
     }
 
@@ -33,7 +37,12 @@ export default function Navbar() {
             </div> */}
             <div className="logo" onClick={() => {
                 navigate(`/`);
-                window.scrollTo(0, 0);
+                window.scrollTo({ 
+                    top: 0,
+                    left: 0,
+                    behavior: "instant"
+
+                });
 
             }}>
                 <h3>NERVOUS NEWT</h3>
@@ -42,11 +51,19 @@ export default function Navbar() {
             <div className="navbar-options-container">  
                 <div className='navbar-option-div'>
                     {/* <a href='#about' className='nav-link nav-link-ltr' onClick={handlePage}>About</a> */}
-                    <Link className='nav-link nav-link-ltr' activeClass="active" smooth spy to="about" offset={-300} duration={0} onClick={handlePage}>About</Link>
+                    <Link 
+                        className='nav-link nav-link-ltr' 
+                        activeClass="active" smooth spy to="about" 
+                        offset={-300} duration={0} 
+                        onClick={() => handlePage("about")}>About</Link>
                 </div>
                 <div className='navbar-option-div'>
                     {/* <a href='#projects' className='nav-link nav-link-ltr' onClick={handlePage}>Projects</a> */}
-                    <Link className='nav-link nav-link-ltr' activeClass="active" smooth spy to="projects" offset={-80} duration={0} onClick={handlePage}>Projects</Link>
+                    <Link 
+                        className='nav-link nav-link-ltr' 
+                        activeClass="active" smooth spy to="projects" 
+                        offset={-80} duration={0} 
+                        onClick={() => handlePage("projects")}>Projects</Link>
                 </div>
             </div>
             

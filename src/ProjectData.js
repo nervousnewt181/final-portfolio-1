@@ -13,6 +13,7 @@ export default [
         description: "Crafting a user interface and user flow for a startup dedicated to organizing workforces.",
         image: "unit-logo-cropped.jpg",
         imageAlt: "logo for unit",
+        pagePath: "unit"
     },
     {
         id: 3,

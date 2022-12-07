@@ -1,5 +1,5 @@
 * {
-  scroll-padding-top: 10vh;
+  scroll-padding-top: 80px;
   transition: color 0.05s ease, background-color 0.1s ease, margin 0.3s ease, box-shadow 0.3s ease;
   scroll-behavior: smooth;
 }
@@ -56,7 +56,7 @@ main {
 =========NAVBAR===========
 */
 .navbar {
-  height: 10vh;
+  height: 80px;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -102,7 +102,7 @@ main {
 */
 .about-container {
   margin: 0;
-  height: 90vh;
+  height: 730px;
   display: flex;
   align-items: center;
   /* background-color: var(--mainBackground); */
@@ -135,6 +135,29 @@ main {
   border-radius: 5px;
 }
 
+.arrow {
+  display: block;
+  height: 50px;
+  position: absolute;
+  margin: 0 50vw;
+  bottom: 20px;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 10px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
 /* PROJECT */
 .projects {
   display: block;
@@ -158,11 +181,11 @@ main {
 
 .entry-container {
   display: flex;
-  height: 40vh;
+  height: 20rem;
   align-items: center;
   justify-content: space-between;
   margin: 3rem 13rem 0;
-  padding: 1rem 5vh;
+  padding: 1rem 3rem;
   border-radius: 5px;
 
   background-color: white;
@@ -185,7 +208,6 @@ main {
 .project-img-container {
   height: 90%;
   width: 20rem;
-  background-color: lightyellow;
   overflow: hidden;
   position: relative;
 
@@ -209,6 +231,7 @@ button {
   font-weight: 700;
   padding: 0.5rem;
   border-radius: 5px;
+  font-family: "PT Sans Caption"
 }
 
 button:hover {
@@ -218,7 +241,7 @@ button:hover {
 
 /* FOOTER */
 .footer {
-  height: 15vh;
+  height: 120px;
   width: 100%;
   background-image: linear-gradient(var(--footerLight), black);
   bottom: 0px;
@@ -258,6 +281,7 @@ button:hover {
 
 .nav-link:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .nav-link::before {
@@ -303,7 +327,7 @@ button:hover {
   }
 
   .project-img-container {
-    height: 40vh;
+    height: 360px;
     margin: 2rem 0 1rem;
     margin-left: auto;
     margin-right: auto;

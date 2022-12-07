@@ -75,6 +75,7 @@
 
 .pp--section-body img {
     width: 90%;
+    max-width: 800px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -92,4 +93,10 @@ li {
     background-color: var(--navbarLight);
     color: white;
     text-decoration: none;
+}
+
+.pp--a {
+    text-decoration: none;
+    color: white;
+    font-family: "PT Sans Caption"
 }

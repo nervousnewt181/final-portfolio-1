@@ -8,6 +8,7 @@ import KolahFarangi from "./pages/KolahFarangi"
 import Starters from "./pages/Starters"
 import Home from "./pages/Home"
 import HighStakes from "./pages/HighStakes"
+import Unit from "./pages/Unit"
 import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="/kolahfarangi/*" element={<KolahFarangi />}/>  
+              <Route path="/unit/*" element={<Unit />}/>  
               <Route path="/starters/*" element={<Starters />}/>
               <Route path="/highstakes/*" element={<HighStakes />}/>
           </Routes>

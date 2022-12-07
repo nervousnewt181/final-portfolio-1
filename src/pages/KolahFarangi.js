@@ -13,10 +13,15 @@ export default function KolahFarangi() {
     let i = process.env.PUBLIC_URL;
 
     React.useEffect(() => {
-        animateScroll.scrollToTop({
-          duration: 0,
-          smooth: false
-        });
+        // animateScroll.scrollToTop({
+        //   duration: 0,
+        //   smooth: false,
+        // });
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "instant",
+        })
     }, [location.pathname]);
 
     const handlePage = () => {
@@ -56,11 +61,15 @@ export default function KolahFarangi() {
                         Kolah Farangi is a kosher restaurant in Los Angeles featuring Persian and Chinese food.
                         Kosher restaurants are already scarce, making outside dining for those with a Kosher diet 
                         such as some practicing Jews difficult, if not predictable or even nigh impossible.
-                        Kolah Farangi offers great kosher meals at a reasonable pricepoint in LA, but their website
+                        Luckily, LA features a plethora of great kosher restaurants.
+                        <br />
+                        Kolah Farangi offers delicious kosher meals at a reasonable pricepoint, but their website
                         is cluttered and difficult to use. This imagined redesigned is intended to make
                         making browsing through kosher options easier, as well as give Kolah Farangi a more
                         appealing website to promote themselves.
                     </p>
+
+                    <button><a className="pp--a" href="http://www.kolah-farangi-losangeles.com/" target="_blank">Explore the original website!</a></button>
                 </div>
 
                 <div className="pp--section-header"><h2>Problem</h2></div>
@@ -133,15 +142,14 @@ export default function KolahFarangi() {
                     of considering options that evolve and change over time. I hope to have done Kolah Farangi justice.
                     </p>
 
+                    <br />
+
+                    <button><a className="pp--a" href="https://nervousnewt181.github.io/responsive-redesign/" target="_blank">Explore the redesign!</a></button>
+
                 </div>
 
-                <a href='#projects' className='bottom-button' onClick={handlePage}>See more projects!</a>
-
                 
-
-
-
-
+            
             
             </main>
             <Footer />

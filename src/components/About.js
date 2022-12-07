@@ -13,6 +13,11 @@ export default function About() {
 
                 </h4>
             </div>
+
+            <img className="arrow" 
+                src={process.env.PUBLIC_URL + "/images/arrow.png"}
+                onClick={() => {window.scrollTo(0, 740)}}
+            />
         </div>
     )
 

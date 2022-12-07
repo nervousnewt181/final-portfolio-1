@@ -2,18 +2,23 @@ import React from "react"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
-export default function HighStakes() {
+export default function Unit() {
     return (
         <div>
             <Navbar />
             <main className="pp--main">
                 <div className="pp--header">
-                    <h1>High Stakes</h1>
-                    <h4>Tools Used: Musescore, Cubase</h4>
+                    <h1>Iterative Design for Unit</h1>
+                    <h4>Tools Used: Figma, HTML/CSS</h4>
                 </div>
+
+
+
+                <h2>Context</h2>
+                <p>Unit is a startup which helps labor movements.
+                </p>
             </main>
             <Footer />
-            
         </div>
     )
 }
