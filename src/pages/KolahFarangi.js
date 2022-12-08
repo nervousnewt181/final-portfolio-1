@@ -140,6 +140,8 @@ export default function KolahFarangi() {
                     <p>Initially, I had the misconception that redesigning a poorly presented website would be a simple task.
                     However, I soon realized the process of redesigning anything is an intensive task that involves many stages
                     of considering options that evolve and change over time. I hope to have done Kolah Farangi justice.
+
+                    {/* TODO: put like, future tasks or ways to expand this project */}
                     </p>
 
                     <br />
