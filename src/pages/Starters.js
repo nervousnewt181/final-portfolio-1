@@ -39,7 +39,7 @@ export default function Starters() {
                 <div className="pp--section-body">
                    <p>
                     As the Pokémon Company keeps pumping out
-                    releases of games, the amount of pokemon grows and grows. For many, it gets difficult to 
+                    releases of games, the amount of Pokémon grows and grows. For many, it gets difficult to 
                     keep track of the ever-expanding roster of critters and creatures, which include
                     the starter Pokémon, special Pokémon given to players at the start of their
                     journeys. Often ranked highly among people's rankings, starter Pokémon
