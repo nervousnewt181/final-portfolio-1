@@ -16,7 +16,7 @@ export default function About() {
 
             <img className="arrow" 
                 src={process.env.PUBLIC_URL + "/images/arrow.png"}
-                onClick={() => {window.scrollTo(0, 830)}}
+                onClick={() => {window.scrollTo(0, 730)}}
             />
         </div>
     )

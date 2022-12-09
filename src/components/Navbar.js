@@ -25,7 +25,7 @@ export default function Navbar() {
                 //     left: 0,
                 //     behavior: "instant",
                 // });
-                window.scrollTo(0, 730);
+                window.scrollTo(0, 700);
             }
             if (scrollTo === "about") {
                 window.scrollTo({

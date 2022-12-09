@@ -343,6 +343,10 @@ button:hover {
   * {
     scroll-padding-top: 100px;
   }
+
+  .project-list-header {
+    padding: 1.75rem 2rem 0.25rem;
+  }
 }
 
 p {
