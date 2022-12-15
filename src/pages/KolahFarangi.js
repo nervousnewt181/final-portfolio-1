@@ -62,14 +62,15 @@ export default function KolahFarangi() {
                         Kosher restaurants are already scarce, making outside dining for those with a Kosher diet 
                         such as some practicing Jews difficult, if not predictable or even nigh impossible.
                         Luckily, LA features a plethora of great kosher restaurants.
-                        <br />
+                        <p></p>
                         Kolah Farangi offers delicious kosher meals at a reasonable pricepoint, but their website
                         is cluttered and difficult to use. This imagined redesigned is intended to make
                         making browsing through kosher options easier, as well as give Kolah Farangi a more
                         appealing website to promote themselves.
-                    </p>
-
+                    </p>    
+                    
                     <button><a className="pp--a" href="http://www.kolah-farangi-losangeles.com/" target="_blank">Explore the original website!</a></button>
+                    <img src={i + "/images/KolahFarangi/KolahFarangiScreenshot.png"}></img>
                 </div>
 
                 <div className="pp--section-header"><h2>Problem</h2></div>
@@ -97,8 +98,6 @@ export default function KolahFarangi() {
 
                 <div className="pp--section-header"><h2>Low-Fidelity Wireframing</h2></div>
                 <div className="pp--section-body">
-                    
-
                     <p>Starting with low-fidelity wireframing, the goal was to resolve the website's key issues.
                         Namely, remove the ads and make information display more streamlined and easy to navigate.
                         I designed interfaces for desktop, tablet, and cell phone dimensions.
@@ -139,15 +138,19 @@ export default function KolahFarangi() {
                 <div className="pp--section-body">
                     <p>Initially, I had the misconception that redesigning a poorly presented website would be a simple task.
                     However, I soon realized the process of redesigning anything is an intensive task that involves many stages
-                    of considering options that evolve and change over time. I hope to have done Kolah Farangi justice.
+                    of considering options that evolve and change over time, while learning of the importance
+                    of curating different screens to make the website as accessible as possible. 
+                    I hope to have done Kolah Farangi justice.
 
-                    {/* TODO: put like, future tasks or ways to expand this project */}
+                    <p></p>
+                    Next steps I can take for this project include making all buttons functional, and implementing
+                    order functionality.
                     </p>
 
                     <br />
 
                     <button><a className="pp--a" href="https://nervousnewt181.github.io/responsive-redesign/" target="_blank">Explore the redesign!</a></button>
-
+                    <img src={i + "/images/KolahFarangi/redesign.png"}></img>
                 </div>
 
                 

@@ -28,13 +28,16 @@
     min-height: 200vh;
 }
 
+.pp--main h4 {
+    margin: 2rem 0 0.25rem 0;
+}
 .pp--header-photo-container {
     display: flex;
     justify-content: center;
 }
 
 .pp--header-photo {
-    height: 40vh;
+    height: 20rem;
     width: auto;
     margin: 1rem;
 }
@@ -101,4 +104,21 @@ li {
     text-decoration: none;
     color: white;
     font-family: "PT Sans Caption"
+}
+
+.pp--link-set {
+    display: flex;
+}
+
+.pp--link-set button {
+    margin-right: 1.5rem;
+}
+
+.user-testing-results {
+    list-style: none;
+}
+
+.pp--inline-link {
+    color: #3d4b34;
+    font-weight: 700;
 }

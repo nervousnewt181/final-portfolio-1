@@ -355,6 +355,11 @@ p {
   line-height: 1.5;
 }
 
+li {
+  font-family: "PT Sans Caption";
+  line-height: 1.5;
+}
+
 h2 {
   font-family: "PT Sans";
 }
@@ -368,4 +373,9 @@ h3 {
 h4 {
   font-family: "PT Sans Caption";
   font-size: 18px;
+}
+
+
+.todo {
+  color: red;
 }
