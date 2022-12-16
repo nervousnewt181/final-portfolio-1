@@ -140,7 +140,7 @@ main {
   height: 50px;
   position: absolute;
   margin: 0 50vw;
-  bottom: 20px;
+  bottom: 50px;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -231,7 +231,8 @@ button {
   font-weight: 700;
   padding: 0.5rem;
   border-radius: 5px;
-  font-family: "PT Sans Caption"
+  font-family: "PT Sans Caption";
+  margin: 0.5rem;
 }
 
 button:hover {

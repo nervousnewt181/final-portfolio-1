@@ -11,7 +11,7 @@ export default [
         id: 2,
         title: "Iterative Design for Unit",
         description: "Crafting a user interface and user flow for a startup dedicated to organizing workforces.",
-        image: "unit-logo-cropped.jpg",
+        image: "/unit/unit-logo-cropped.jpg",
         imageAlt: "logo for unit",
         pagePath: "unit"
     },
@@ -19,7 +19,7 @@ export default [
         id: 3,
         title: "Choose Your Starters!",
         description: "Implementing an application for those who want to choose the best starter Pokémon.",
-        image: "gen1-starters.jpg",
+        image: "gen1-cropped.jpg",
         imageAlt: "illustration of Bulbasaur",
         pagePath: "starters"
     },

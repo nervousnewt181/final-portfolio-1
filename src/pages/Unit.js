@@ -26,7 +26,7 @@ export default function Unit() {
                 </div>
 
                 <div className="pp--header-photo-container">
-                    <img className="pp--header-photo" src={i +  "/images/unit-logo-cropped.jpg"}></img>
+                    <img className="pp--header-photo" src={i + "/images/unit/unit-logo-cropped.jpg"}></img>
                 </div>
 
 
@@ -84,11 +84,11 @@ export default function Unit() {
                 <div className="pp--section-header"><h2>Sketching</h2></div>
                 <div className="pp--section-body">
                     <p>
-                        After solidifying clear goals, we proceeded to sketch out potential ideas
+                        After solidifying a target user base, we proceeded to sketch out potential ideas
                         for features and varying ways to visualize data.
                     </p>
 
-                    <h2>insert photo here</h2>
+                    <img src={i + "/images/unit/sketches.jpg"}></img>
 
                     <p>
                     Each row represents different approaches for a particular screen. 
@@ -116,19 +116,20 @@ export default function Unit() {
                         We proceeded to make low-fidelity wireframes, choosing to 
                         focus on some visualizations for the sake of simplicity.
                     </p>
-                    {/* <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfZ3KjGZJ1qxGQtzwZeSDQg%2FWireframes%3Fnode-id%3D243%253A1"
-                        allowfullscreen></iframe> */}
+
+                    <button><a className="pp--a" href="https://unitworkers.com/" target="_blank">Explore Unit's page!</a></button>
+
+                    <img src={i + "/images/unit/unit-wireframe.png"}></img>
 
                     
                 </div>
 
-                <div className="pp--section-header"><h2>Visual Design Guide High-Fidelity Prototyping</h2></div>
+                <div className="pp--section-header"><h2>Visual Design Guide and High-Fidelity Prototyping</h2></div>
                 <div className="pp--section-body">
-                    <p>
-                        Visual Design Guide
-                    </p>
+                    <h4>Visual Design Guide</h4>
+                    <img src={i + "/images/unit/unit-style-guide.png"}></img>
                     
+                    <h4>Figma Prototype</h4>
                     <p>
                         Our mockup consists of a main dashboard screen from which users can navigate to more specific screens. 
                         At the top of this page are progress bars and metrics, which let users clearly see movement progress 
@@ -137,6 +138,8 @@ export default function Unit() {
                         "worker lists" in which they can keep track of their co-workers and their status in 
                         relation to the movement.
                     </p>
+
+                    <button><a className="pp--a" target="_blank" href="https://www.figma.com/file/6vmT0tFpu3AQrvfCEa9dUW/Prototype?node-id=0%3A1&t=xE1MVxx8cG5yqjPF-1">See our mockup!</a></button>
                     
                     
                 </div>
@@ -161,7 +164,12 @@ export default function Unit() {
                             its prominence. To resolve this, we expanded the "upcoming" section with dates and thumbnail images,
                             so users can more clearly see the upcoming timeline of their movement.
                         </li>
-                    </ul>    
+                    </ul> 
+
+                    <h4>Original Dashboard</h4>   
+                    <img src={i + "/images/unit/old-dashboard.jpg"}></img>
+                    <h4>Updated Dashboard</h4>   
+                    <img src={i + "/images/unit/new-dashboard.png"}></img>
                 </div>
 
                 <div className="pp--section-header"><h2>User Testing</h2></div>

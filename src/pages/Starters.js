@@ -81,7 +81,8 @@ export default function Starters() {
                             </li>
                         </ol>
                     This makes sorting and viewing them very intuitive.
-                    <h2 className="todo">TODO: add picture</h2>
+
+                    <img src={i + "/images/starters-grid.png"}></img>
                     </p>
 
                     <h4>Designing</h4>
@@ -120,9 +121,6 @@ export default function Starters() {
                         on Pokémon, and compiling things like type advantages and
                         disadvantages in the aggregator.
                     </p>
-
-                    <br />
-
                     <button><a className="pp--a" href="https://nervousnewt181.github.io/development/" target="_blank">Try it out!</a></button>
 
                 </div>
