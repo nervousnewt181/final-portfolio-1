@@ -41,7 +41,7 @@ export default function KolahFarangi() {
                 </div>
 
                 <div className="pp--header-photo-container">
-                    <img className="pp--header-photo" src={i +  "/images/KF-Food.jpg"}></img>
+                    <img className="pp--header-photo" src={i +  "/images/kolahfarangi/KF-Food.jpg"}></img>
                 </div>
 
                 <div className="pp--section-body"> 
@@ -70,7 +70,7 @@ export default function KolahFarangi() {
                     </p>    
                     
                     <button><a className="pp--a" href="http://www.kolah-farangi-losangeles.com/" target="_blank">Explore the original website!</a></button>
-                    <img src={i + "/images/KolahFarangi/KolahFarangiScreenshot.png"}></img>
+                    <img src={i + "/images/kolahfarangi/KolahFarangiScreenshot.png"}></img>
                 </div>
 
                 <div className="pp--section-header"><h2>Problem</h2></div>
@@ -150,7 +150,7 @@ export default function KolahFarangi() {
                     <br />
 
                     <button><a className="pp--a" href="https://nervousnewt181.github.io/responsive-redesign/" target="_blank">Explore the redesign!</a></button>
-                    <img src={i + "/images/KolahFarangi/redesign.png"}></img>
+                    <img src={i + "/images/kolahfarangi/redesign.png"}></img>
                 </div>
 
                 
